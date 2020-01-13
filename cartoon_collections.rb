@@ -14,5 +14,10 @@ end
 
 def find_the_cheese(arr)
   cheese_types = ["cheddar", "gouda", "camembert"]
+ i = 0
+ while i < arr.length do
+   arr.find {|cheese| cheese == "cheddar"}
+ end
+ 
   return arr.find {|cheese| cheese == "cheddar"}
 end
